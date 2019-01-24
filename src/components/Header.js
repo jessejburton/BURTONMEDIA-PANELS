@@ -1,19 +1,9 @@
 import React from 'react';
+import Navigation from './Navigation';
 
 const Header = () => (
   <div className="header">
-    <div className="navigation">
-      <div>
-        <a href="" className="navigation__brand">
-          BURTON<strong>MEDIA</strong>
-        </a>
-      </div>
-      <div className="navigation__links">
-        <a href="">Workshop</a>
-        <a href="">Time & Location</a>
-        <a href="">Register</a>
-      </div>
-    </div>
+    <Navigation />
     <div className="header__container panel">
       <video
         autoPlay
