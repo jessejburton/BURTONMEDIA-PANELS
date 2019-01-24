@@ -14,7 +14,7 @@ const Header = () => (
         <a href="">Register</a>
       </div>
     </div>
-    <div className="header__container">
+    <div className="header__container panel">
       <video
         autoPlay
         muted

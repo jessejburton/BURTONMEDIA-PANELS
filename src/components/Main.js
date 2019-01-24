@@ -1,13 +1,10 @@
 import React from 'react';
+import Register from './Register';
+import Workshop from './Workshop';
 
 const Main = () => (
   <div>
-    <div className="content-container">
-      <h1>What you will learn</h1>
-      <ul>
-        <li>How to setup a website</li>
-      </ul>
-    </div>
+    <Register />
   </div>
 );
 
